@@ -1,0 +1,40 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background: salmon;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+  border: 1px solid gray;
+  background: gray;
+  color: black;
+  padding: 5px;
+  border-radius: 5px;
+  margin: 5px;
+  transition: 0.3s;
+}
+
+a:hover {
+  background: black;
+  color: white;
+}
+
+.card-grid {
+  max-width: 800px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  margin: 20px;
+  gap: 20px;
+}
+
+.card {
+  text-align: center;
+  background: white;
+  border-radius: 50px;
+}

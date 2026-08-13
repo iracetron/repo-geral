@@ -1,0 +1,42 @@
+# ==========================================
+# Gitignore para Repositório de Estudos
+# (C, HTML/CSS/JS, Java)
+# ==========================================
+
+# --- Compilação & Binários de C ---
+*.o
+*.obj
+*.out
+*.exe
+*.a
+*.so
+*.dll
+*.dylib
+
+# --- Arquivos Temporários do Sistema Operacional ---
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# --- Configurações de IDEs e Editores ---
+.vscode/
+!.vscode/settings.json
+.idea/
+*.swp
+*.swo
+*~
+
+# --- Logs e Arquivos Temporários ---
+*.log
+*.tmp
+*.temp
+
+# --- Web & Node.js (caso use no futuro) ---
+node_modules/
+dist/
+build/
+.cache/

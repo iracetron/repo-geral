@@ -1,0 +1,54 @@
+body, h1, h2, p, ul, li, a {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: "Iosevka Charon", Helvetica, Arial, sans-serif;
+  color: #222;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+
+  background: #7c7c7c;
+  padding: 20px;
+}
+
+.menu-info nav ul {
+  display: flex;
+  gap: 30px;
+  font-weight: bold;
+  font-size: 1.15rem;
+}
+
+.menu-info nav ul li a {
+  color: white;
+  transition: 0.2s;
+}
+
+.menu-info nav ul li a:hover {
+  color: black;
+  background: white;
+  padding: 100% 5px; /*o padding tá empurrando os itens para o lado, ao invés de só pintar um quadrado sobre a palavra*/ 
+}

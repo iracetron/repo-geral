@@ -1,0 +1,28 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+.navbar ul{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background: gray;
+}
+
+.navbar ul li{
+  padding: 20px;
+  font-size: 1.5rem;
+  color: white;
+  transition: 0.3s;
+}
+
+.navbar ul li:hover {
+  color: black;
+  background: white;
+}
